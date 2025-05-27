@@ -11,7 +11,7 @@ class orang {
                 cout<< "orang dibuat\n" << endl;
             }
         ~orang(){
-            cout<< "prang dihapus\n" << endl;
+            cout<< "orang dihapus\n" << endl;
         }
 
     int jumlah(int a, int b) {
@@ -31,8 +31,8 @@ class pelajar : public orang {
             cout << "pelajar dihapus\n" << endl;
         }
         string perkenalan(){
-            return "Hallo, nama saya " + nama + " dari sekolah " + sekolah + "\n
-    \n"}
+              return "Hallo, nama saya " + nama + " dari sekolah " + sekolah + "\n
+\n"}
 };
 
 int main() {
